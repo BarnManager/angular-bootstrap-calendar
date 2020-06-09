@@ -24,4 +24,15 @@ angular
       angular.extend(calendarEventTitle, originalEventTitle);
     });
 
+    vm.eventTapped = function(event, $event) {
+      $event.stopPropagation();
+      $event.preventDefault();
+      console.log($event);
+      console.log('event tapped');
+    }
+
+    vm.eventClicked = function(event, $event) {
+      console.log($event);
+      console.log('event clicked');
+    }
   });

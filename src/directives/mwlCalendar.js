@@ -143,6 +143,7 @@ angular
         customTemplateUrls: '=?',
         draggableAutoScroll: '=?',
         onEventClick: '&',
+        onEventTapMonthView: '&',
         onEventTimesChanged: '&',
         onTimespanClick: '&',
         onDateRangeSelect: '&?',

@@ -5,6 +5,8 @@
     events="vm.events"
     view="vm.calendarView"
     view-title="vm.viewTitle"
-    view-date="vm.viewDate">
+    view-date="vm.viewDate"
+    on-event-tap-month-view="vm.eventTapped(calendarEvent, $event)"
+    on-event-click="vm.eventClicked(calendarEvent, $event)">
   </mwl-calendar>
 </div>

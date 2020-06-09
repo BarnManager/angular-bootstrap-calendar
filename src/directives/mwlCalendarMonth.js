@@ -172,6 +172,7 @@ angular
         viewDate: '=',
         excludedDays: '=',
         onEventClick: '=',
+        onEventTapMonthView: '=',
         onEventTimesChanged: '=',
         onDateRangeSelect: '=',
         cellIsOpen: '=',

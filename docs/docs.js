@@ -103,6 +103,3 @@ angular
         .save();
     };
   })
-  .config(function($touchProvider) {
-    $touchProvider.ngClickOverrideEnabled(true);
-  });
